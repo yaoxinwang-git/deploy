@@ -34,5 +34,6 @@ bin/zkCli.sh -server ip:port
 
 ./bin/zkServer.sh start  ./conf/zoo.cfg
 ./bin/zkServer.sh status
+./bin/zkCli.sh  -server localhost:2181
 
 ```
